@@ -53,7 +53,7 @@ const Work = ({ isDarkMode }) => {
           whileInView={{ opacity: 1 }}
           transition={{ duration: 1.1, delay: 0.5 }}
           href={""}
-          className="w-max flex items-center justify-center gap-2 text-gray-700 border-[0.5px] border-gray-700 rounded-full py-3 px-10 mx-auto my-20 hover:bg-lightHover duration-500 dark:text-white dark:border-white dark:hover:bg-darkHover"
+          className="w-max flex items-center justify-center gap-2 text-gray-700 border-[0.5px] border-gray-700 rounded-full py-3 px-10 mx-auto my-20 hover:bg-lightHover duration-500 dark:text-white dark:border-white/50 dark:hover:bg-darkHover"
         >
           Show more{" "}
           <Image
